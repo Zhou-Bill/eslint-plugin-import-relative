@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+!tests/**/node_modules/
+
+# Users Environment Variables
+.lock-wscript
+
+# added by GitSavvy
+*.sublime-workspace
+
+# generated output
+lib/
+**/.nyc_output/
+
+# Only apps should have lockfiles
+yarn.lock
+package-lock.json
+npm-shrinkwrap.json
+
+# macOS
+.DS_Store
